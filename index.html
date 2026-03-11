@@ -1,19 +1,43 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TODO APP Login</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="index.css" />
     <script src="index.js" defer></script>
-</head>
-<body>
-    <h1>Welcome to TODO APP</h1>
-    <p>Please login to continue</p>
-    <label for="username">Username:</label>
-    <input type="text" id="username" name="username" placeholder="Enter UserName">
-    <label for="password">Password:</label>
-    <input type="password" id="password" name="password" placeholder="Enter Password">
-    <button id="btn">Login</button>
-</body>
+  </head>
+  <body>
+    <div class="bg-container">
+      <h1>Welcome to TaskFlow</h1>
+      <p>Please login to continue</p>
+      <div class="container">
+        <label for="username">Username:</label>
+        <input
+          type="text"
+          id="username"
+          name="username"
+          placeholder="Enter UserName"
+        />
+        <label for="password">Password:</label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Enter Password"
+        />
+      </div>
+      <div class="btn-container">
+        <button class="btn" id="btn">Login</button>
+      <button class="btn" id="guest" onclick="window.location.href = 'main.html'">
+        Login Guest
+      </button>
+      </div>
+      
+    </div>
+    <footer>
+    <p>TaskFlow copyright © 2026</p>
+    <p>All rights reserved.</p>
+    </footer>
+  </body>
 </html>
