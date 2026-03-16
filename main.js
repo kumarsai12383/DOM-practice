@@ -73,8 +73,7 @@ window.addEventListener("keydown", (e) => {
         popup.style.display = "none";
       });
     }
-  }
-  else if (e.key === "Enter") {
+  } else if (e.key === "Enter") {
     document.getElementById("incompleted-items-heading").style.display =
       "block";
     let li = document.createElement("li");
@@ -116,5 +115,5 @@ window.addEventListener("keydown", (e) => {
     taskList.insertBefore(li, taskList.firstChild);
     li.classList.add("task-item");
     task.value = "";
-  } 
+  }
 });
