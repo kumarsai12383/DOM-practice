@@ -1,10 +1,10 @@
-# TODO App
+# TASKFLOW App
 
 A simple, web-based todo application with user authentication and task management features.
 
 ## 📋 Project Overview
 
-This TODO App is a lightweight JavaScript application that allows users to manage their daily tasks efficiently. The app includes a login system and a comprehensive task management interface where users can add, complete, and delete tasks.
+This TASKFLOW App is a lightweight JavaScript application that allows users to manage their daily tasks efficiently. The app includes a login system and a comprehensive task management interface where users can add, complete, and delete tasks.
 
 ## 📁 Project Structure
 
