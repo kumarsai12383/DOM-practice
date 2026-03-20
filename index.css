@@ -2,6 +2,17 @@ body {
   margin: 0;
   padding: 0%;
 }
+.Heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.greeting {
+  font-size: 34px;
+  color: #4caf50;
+  padding: 10px;
+}
 .login-success {
   display: flex;
   justify-content: center;
@@ -9,7 +20,7 @@ body {
 }
 #success-message {
   color: #4caf50;
-  display: none; 
+  display: none;
   position: absolute;
   top: 20%;
   background-color: #f7f7f7;

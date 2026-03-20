@@ -1,6 +1,10 @@
+let dark_theme_logo = document.getElementById("dark_theme_logo");
+let light_theme_logo = document.getElementById("light_theme_logo");
 let toggleBtn = document.querySelector(".toggle-btn"); // Select the toggle button element
 toggleBtn.addEventListener("click", () => {
   document.body.classList.toggle("dark-mode");
+  dark_theme_logo.classList.toggle("d-none");
+  light_theme_logo.classList.toggle("d-none");
 });
 let task = document.getElementById("task");// Select the task input element
 let totalTasks = document.getElementById("total-tasks");// Select the total tasks element

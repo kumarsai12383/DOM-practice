@@ -16,6 +16,11 @@ body {
   background-color: transparent;
   padding: 10px;
 }
+.navbar-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 .toggle-btn {
   background: #4caf50;
   color: white;
